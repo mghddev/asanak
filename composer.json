@@ -1,0 +1,20 @@
+{
+    "name": "mghddev/asanak",
+    "type": "library",
+    "description": "library for asanak",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Ghaderi",
+            "email": "mghddev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "mghddev\\asanak\\": "src/" }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
