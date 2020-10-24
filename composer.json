@@ -15,7 +15,6 @@
     "minimum-stability": "stable",
     "require": {
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^6.3",
         "ext-curl": "^2.2.0"
     }
 }
