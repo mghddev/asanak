@@ -5,7 +5,7 @@ use Exception;
 use mghddev\asanak\Exceptions\AsanakException;
 
 /**
- * Class AsanakGuzzleApiClient
+ * Class AsanakCurlApiClient
  * @package mghddev\asanak
  */
 class AsanakCurlApiClient implements iAsanakApiClient
@@ -23,18 +23,18 @@ class AsanakCurlApiClient implements iAsanakApiClient
     /**
      * @var string
      */
-    private string $username;
+    private $username;
     /**
      * @var string
      */
-    private string $password;
+    private $password;
     /**
      * @var array
      */
-    private array $config;
+    private $config;
 
     /**
-     * AsanakGuzzleApiClient constructor.
+     * AsanakCurlApiClient constructor.
      * @param string $username
      * @param string $password
      * @param array $config
