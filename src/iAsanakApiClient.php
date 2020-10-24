@@ -8,5 +8,5 @@ interface iAsanakApiClient
 {
     public function sendSms(SendSmsVO $sendSmsVO);
 
-    public function getStatus();
+    public function getStatus(array $msgIDs);
 }
