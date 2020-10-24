@@ -22,6 +22,6 @@ $msgIDs = $sms->setSource('98******')
 ->setMessage('سلام پسر گل');
 
 $res = $client->sendSms($sms);
-//$res = $client->getStatus([1997585185,1997585187]);
+//$res = $client->getStatus($res);
 var_dump($res);
 
